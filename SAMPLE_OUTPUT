@@ -1,0 +1,14 @@
+CLOUDFLARE - 1.1.1.1
+Averate Latency - 37.75
+Jitter - 12.636363636363637
+5 lowest - [28, 29, 29, 29, 29]
+5 highest - [61, 110, 132, 133, 140]
+drops out of 100 - 0
+-------------
+GOOGLE - 8.8.8.8
+Averate Latency - 23.91
+Jitter - 7.08080808080808
+5 lowest - [18, 18, 18, 18, 19]
+5 highest - [36, 40, 50, 84, 102]
+drops out of 100 - 0
+-------------
