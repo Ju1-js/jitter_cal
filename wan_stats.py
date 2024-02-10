@@ -1,15 +1,15 @@
 import os
 import re
 
-path = 'C:/Users/James/Desktop/jitter_cal/output/out'
+path = './output/out'
 dir_with_file = {}
 for file in os.listdir(path):
-    x = 'C:/Users/James/Desktop/jitter_cal/output/out/{}'.format(file)
+    x = './output/out/{}'.format(file)
     dir_with_file[x] = file.split('-')[0]
 
 s = {}
 
-with open('C:/Users/James/Desktop/jitter_cal/ip_to_name.txt') as f:
+with open('./ip_to_name.txt') as f:
     for l in f:
         (key, val) = l.split('\t')
         s[key] = val.strip()
